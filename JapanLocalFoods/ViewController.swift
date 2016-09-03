@@ -72,6 +72,19 @@ class ViewController: UIViewController {
 
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        guard let tag = sender?.tag else {
+            return
+        }
+
+        let secondVC = segue.destinationViewController as? FoodViewController
+
+        secondVC?.foodImageName = foodImages[tag]
+        secondVC?.foodName = foodNames[tag]
+        secondVC?.foodInfo = foodInfo[tag]
+
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

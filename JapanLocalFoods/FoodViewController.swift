@@ -10,8 +10,32 @@ import UIKit
 
 class FoodViewController: UIViewController {
 
+    @IBOutlet weak var foodImageView: UIImageView!
+    @IBOutlet weak var foodNameLabel: UILabel!
+    @IBOutlet weak var foodInfoLabel: UILabel!
+
+    var foodImageName: String?
+    var foodName: String?
+    var foodInfo: String?
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        guard let imageName = foodImageName else {
+            return
+        }
+
+        guard let name = foodName else {
+            return
+        }
+
+        guard let info = foodInfo else {
+            return
+        }
+
+        foodImageView.image = UIImage(named: imageName)
+        foodNameLabel.text = name
+        foodInfoLabel.text = info
 
         // Do any additional setup after loading the view.
     }
@@ -20,7 +44,6 @@ class FoodViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
     /*
     // MARK: - Navigation
