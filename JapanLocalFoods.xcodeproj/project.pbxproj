@@ -14,6 +14,7 @@
 		F50F76F61D7A8109007F8E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50F76F41D7A8109007F8E62 /* LaunchScreen.storyboard */; };
 		F50F77011D7A8109007F8E62 /* JapanLocalFoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F77001D7A8109007F8E62 /* JapanLocalFoodsTests.swift */; };
 		F50F770C1D7A8109007F8E62 /* JapanLocalFoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F770B1D7A8109007F8E62 /* JapanLocalFoodsUITests.swift */; };
+		F50F771C1D7A9CC2007F8E62 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F771B1D7A9CC2007F8E62 /* FoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F50F77071D7A8109007F8E62 /* JapanLocalFoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanLocalFoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50F770B1D7A8109007F8E62 /* JapanLocalFoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanLocalFoodsUITests.swift; sourceTree = "<group>"; };
 		F50F770D1D7A8109007F8E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50F771B1D7A9CC2007F8E62 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F50F76EB1D7A8109007F8E62 /* AppDelegate.swift */,
 				F50F76ED1D7A8109007F8E62 /* ViewController.swift */,
+				F50F771B1D7A9CC2007F8E62 /* FoodViewController.swift */,
 				F50F76EF1D7A8109007F8E62 /* Main.storyboard */,
 				F50F76F21D7A8109007F8E62 /* Assets.xcassets */,
 				F50F76F41D7A8109007F8E62 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F50F76EE1D7A8109007F8E62 /* ViewController.swift in Sources */,
+				F50F771C1D7A9CC2007F8E62 /* FoodViewController.swift in Sources */,
 				F50F76EC1D7A8109007F8E62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
